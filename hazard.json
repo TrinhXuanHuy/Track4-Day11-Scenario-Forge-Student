@@ -1,0 +1,24 @@
+{
+  "format": "avsim-studio/1",
+  "params": {},
+  "policy": {},
+  "hazards": [
+    {
+      "type": "ped",
+      "x": 200.0,
+      "side": "S",
+      "v": 1.6,
+      "t0": 0.0,
+      "trig": 28.0
+    }
+  ],
+  "ego": "planner",
+  "space": {
+    "h0_x": [160.0, 240.0],
+    "h0_v": [1.2, 2.0],
+    "h0_trig": [10.0, 24.0]
+  },
+  "exposure": 0.02,
+  "why": "Người đi bộ bất ngờ băng qua đường ngoài vạch kẻ (jaywalking) ở khu đô thị đông dân cư: Theo thống kê an toàn giao thông của NHTSA, khoảng 70% tai nạn va chạm người đi bộ xảy ra ngoài vạch qua đường. Tốc độ đi bộ trung bình của người dân theo tiêu chuẩn thiết kế giao thông đô thị dao động từ 1.2 đến 2.0 m/s (trung bình 1.4 m/s theo HCM). Khoảng cách kích hoạt 10 - 24 m tương đương với thời gian phản ứng 0.8 - 2.0 s ở tốc độ hành trình đô thị 12 m/s, là cự ly nguy hiểm đối với xe tự lái trên mặt đường trơn trượt."
+}
+
